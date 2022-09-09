@@ -1,3 +1,3 @@
 # Teknologi Cloud Computing
 
-Repository mata kuliah Praktikum Teknologi Cloud Computing.
+Repository Mata Kuliah Praktikum Teknologi Cloud Computing.
