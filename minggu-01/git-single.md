@@ -80,3 +80,47 @@ Untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setelah itu pus
 ### Sinkronisasi
 
 ![01](gambar/git-sinkron.jpg)
+
+### Membatalkan Perubahan
+
+![01](gambar/git-batal-perubahan.jpg)
+
+### Undo Commit Terakhir
+
+Suatu saat, mungkin kita sudah terlanjur mem-push perubahan ke repo GitHub, setelah itu kita baru menyadari bahwa perubahan tersebut salah. Untuk itu, kita bisa melakukan git revert.
+
+![01](gambar/git-undo-commit.jpg)
+
+![02](gambar/git-undo-commit2.jpg)
+
+Contoh di atas adalah contoh untuk mengubah README.md dengan beberapa commit. Setelh itu, kita akan mengembalikan ke posisi terakhir sebelum commit terakhir.
+
+Saat git revert HEAD maka akan terbuka Editor. Pada editor tersebut kita bisa mengetikkan pesan revert ( = pesan commit untuk pembatalan). Setelah selesai, simpan lalu push ke repo.
+
+![03](gambar/git-undo-commit3.jpg)
+
+![04](gambar/git-undo-commit4.jpg)
+
+Jika commit sudah dilakukan, tetapi belum di-push ke repo GitHub (masih berada di lokal), cara membatalkannya:
+
+![05](gambar/git-undo-commit5.jpg)
+
+![06](gambar/git-undo-commit6.jpg)
+
+Untuk kembali ke perubahan pada saat yang sudah lama, yang perlu dilakukan adalah melakukan ```git revert <posisi>``` kemudian mengedit secara manual kemudian push ke repo. Contohnya disini Saya membuat beberapa kali perubahan pada README.md:
+
+![07](gambar/git-undo-commit7.jpg)
+
+![08](gambar/git-undo-commit8.jpg)
+
+Setelah itu, jika dilihat pada file, akan muncul tambahan untuk memudahkan meng-edit. File ini harus di-resolve terlebih dahulu. Edit file tersebut, setelah itu simpan.
+
+
+![09](gambar/git-undo-commit9.jpg)
+
+Setelah itu, lanjutkan proses revert. Saat ```git revert --continue``` akan muncul Editor kembali lalu isikan pesan revert.
+
+![10](gambar/git-undo-commit11.jpg)
+
+![11](gambar/git-undo-commit10.jpg)
+
