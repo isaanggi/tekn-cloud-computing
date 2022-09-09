@@ -8,8 +8,8 @@
 [Rangkuman Cloud Computing](rangkuman-cloud-computing.md)
 
 # ===========================================
-## Praktikum Minggu - 1
-# My Awesome Project
+# Praktikum Minggu - 1
+## My Awesome Project
 
 ini Isi Proyek
 
