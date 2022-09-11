@@ -1,6 +1,6 @@
 # Cloud Computing
 
-<h1>Definisi</h1>
+## Definisi
 Cloud computing merupakan istilah dari Cloud diartikan sebagai internet dan Computing diartikan sebagai komputer. 
 Definisi dari Cloud Computing adalah sebuah proses pengolahan daya komputasi  melalui jaringan internet  yang memiliki fungsi agar dapat menjalankan program melalui komputer yang telah terkoneksi satu sama lain pada waktu yang sama.
 Cloud Computing merupakan sebuah teknologi yang menjadikan internet sebagai pusat server untuk mengelola data dan juga aplikasi pengguna. 
@@ -10,7 +10,7 @@ Cloud Computing memudahkan penggunanya untuk menjalankan program tanpa harus men
 diklaim juga bahwa komputasi awan memungkinkan perusahaan untuk menjalankan aplikasi lebih cepat, dengan pengelolaan yang lebih baik dan lebih sedikit pemeliharaan, dan memungkinkan tim IT untuk lebih cepat menyesuaikan sumber daya untuk memenuhi permintaan yang berfluktuasi dan tidak terduga.
 <br>
 
-<h1>Sejarah</h1>
+## Sejarah
 Cloud computing sendiri sebenarnya merupakan hasil dari evolusi yang berlangsung secara bertahap. Sebelum cloud computing mulai booming seperti sekarang ini, terlebih dahulu terjadi beberapa fenomena seperti virtualisasi, grid computing, ASP / application service provision dan juga Software as a service atau yang lebih dikenal pula dengan sebutan SaaS. Sebenarnya, pada tahun 60 an pun sudah mulai muncul konsep yang menyatukan beberapa sumber computing dengan menggunakan jaringan yang bersifat global.
 <br>
 <br>
@@ -29,7 +29,7 @@ Teknologi ini memungkinkan terdapatnya situs layanan web yang bisa dikomersialka
 <br>
 <br>
 
-<h1>Karakter Layanan</h1>
+## Karakter Layanan
 <br>
 Menurut NIST, ada 5 Karakteristik Cloud Computing agar sebuah sistem dapat disebut sebagai Cloud Computing, yaitu:
 <br><br><b>a.	Broad Network Access</b> <br>Akses jaringan yang luas dan bisa diakses oleh berbagai jenis perangkat, seperti smartphone, tablet, laptop, dsb. Contohnya facebook mobile, memungkinkan kita untuk mengakses layanan facebook melalui  handphone, smartphone ataupun tablet dimanapun kita berada.
@@ -44,7 +44,7 @@ Menurut NIST, ada 5 Karakteristik Cloud Computing agar sebuah sistem dapat diseb
 
 <br>
 <br>
-<h1>Model Layanan</h1> 
+## Model Layanan
 Secara umum terdapat tiga bentuk layanan Cloud Computing, yaitu sebagai berikut:
 <br><br>
 <b>a. Software as a Service (SaaS)</b>
@@ -61,7 +61,7 @@ Platform as a Service adalah layanan yang menyediakan computing platform. Biasan
 Infastructure as a Service adalah layanan cloud computing yang menyediakan infrastruktur dan perangkat keras seperti server, media penyimpanan, bandwidth, virtualisasi dan konfigurasi lain yang memungkinkan utilitas bagi pengguna. Keuntungan dari layanan IaaS adalah pengguna tidak perlu membeli komputer fisik sehingga lebih menghemat biaya, konfigurasi komputer virtual juga bisa diubah sesuai kebutuhan. Misalkan saat media penyimpanan hampir penuh, media penyimpanan bisa ditambah dengan segara. Perusahaan yang menyediakan layanan IaaS adalah Amazon EC2, TelkomCloud dan BizNetCloud.
 <br>
 
-<h1>Model Penerapan</h1> 
+##  Model Penerapan
 <b>Private Cloud</b><br>
 Private Cloud ini berarti sumber daya cloud-nya digunakan bagi satu organisasi tertentu saja (secara privat, tidak dibagi ke pengguna/organisasi lain). Metode ini lebih banyak digunakan buat interaksi semacam intra-bisnis, di mana sumber daya cloud-nya bisa diatur, dimiliki, dan dioperasikan oleh organisasi satu yang sama.
 <br><br>
