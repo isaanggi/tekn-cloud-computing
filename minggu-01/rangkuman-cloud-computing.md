@@ -29,7 +29,6 @@ Teknologi ini memungkinkan terdapatnya situs layanan web yang bisa dikomersialka
 <br>
 
 ## Karakter Layanan
-<br>
 Menurut NIST, ada 5 Karakteristik Cloud Computing agar sebuah sistem dapat disebut sebagai Cloud Computing, yaitu:
 <br><br><b>a.	Broad Network Access</b> <br>Akses jaringan yang luas dan bisa diakses oleh berbagai jenis perangkat, seperti smartphone, tablet, laptop, dsb. Contohnya facebook mobile, memungkinkan kita untuk mengakses layanan facebook melalui  handphone, smartphone ataupun tablet dimanapun kita berada.
 <br>
@@ -43,7 +42,6 @@ Menurut NIST, ada 5 Karakteristik Cloud Computing agar sebuah sistem dapat diseb
 <br>
 
 ## Model Layanan
-<br>
 Secara umum terdapat tiga bentuk layanan Cloud Computing, yaitu sebagai berikut:
 <br><br>
 <b>a. Software as a Service (SaaS)</b>
@@ -60,7 +58,7 @@ Platform as a Service adalah layanan yang menyediakan computing platform. Biasan
 Infastructure as a Service adalah layanan cloud computing yang menyediakan infrastruktur dan perangkat keras seperti server, media penyimpanan, bandwidth, virtualisasi dan konfigurasi lain yang memungkinkan utilitas bagi pengguna. Keuntungan dari layanan IaaS adalah pengguna tidak perlu membeli komputer fisik sehingga lebih menghemat biaya, konfigurasi komputer virtual juga bisa diubah sesuai kebutuhan. Misalkan saat media penyimpanan hampir penuh, media penyimpanan bisa ditambah dengan segara. Perusahaan yang menyediakan layanan IaaS adalah Amazon EC2, TelkomCloud dan BizNetCloud.
 <br>
 
-##  Model Penerapan
+## Model Penerapan
 <b>Private Cloud</b><br>
 Private Cloud ini berarti sumber daya cloud-nya digunakan bagi satu organisasi tertentu saja (secara privat, tidak dibagi ke pengguna/organisasi lain). Metode ini lebih banyak digunakan buat interaksi semacam intra-bisnis, di mana sumber daya cloud-nya bisa diatur, dimiliki, dan dioperasikan oleh organisasi satu yang sama.
 <br><br>
