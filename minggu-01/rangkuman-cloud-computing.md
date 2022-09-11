@@ -27,7 +27,6 @@ Pada tahun 1999, storage.salesforce.com seakan menjadi batu loncatan yang sangat
 <br>
 Teknologi ini memungkinkan terdapatnya situs layanan web yang bisa dikomersialkan dan juga memungkinkan beberapa perusahaan kecil atau besar dan juga individu untuk dapat menyewa computer atau juga server yang kemudian dapat difungsikan untuk memnjalankan setiap aplikasi yang mereka miliki. Batu loncatan besar lainnya datang pada tahun 2009. Pada saat itu, Google dan perusahaan besar lainnya mulai menawarkan aplikasi dengan browser sebagai dasarnya. Sebut saja seperti Google apps.
 <br>
-<br>
 
 ## Karakter Layanan
 <br>
@@ -41,9 +40,8 @@ Menurut NIST, ada 5 Karakteristik Cloud Computing agar sebuah sistem dapat diseb
 <br><b>d.	Measured Service</b> <br>Sistem cloud menyediakan layanan yang dapat memonitor dan mengoptimalkan penggunaan sumber daya terhadap layanan yang dipakai (misalnya tempat penyimpanan, pemrosesan, bandwidth, dan akun pengguna yang aktif). Sehingga pelanggan dapat memonitor sumber daya komputasi yang dipakai secara transparan antara penyedia layanan dan pelanggan. Misalnya dropbox, kita bisa memantau space yang terpakai ataupun space yang masih kosong, mengetahui masa aktif akun, dan lain sebagainya.
 <br>
 <br><b>e.	Rapid Elasticity</b><br> Kapasitas layanan bersifat fleksibel tergantung kebutuhan pengguna. Sehingga pengguna cloud dapat dengan mudah meminta menaikkan atau menurunkan kapasitas layanan sesuai kebutuhannya. Jadi, kapasitas layanan ini seolah tak terbatas dan pengguna cloud dapat memilih sesuai dengan kebutuhannya setiap saat. Misalnya office 365, kita bisa dengan cepat mengubah layanan yang diinginkan dari small ke bussiness atau sebaliknya sesuai denngan kebutuhan.
+<br>
 
-<br>
-<br>
 ## Model Layanan
 <br>
 Secara umum terdapat tiga bentuk layanan Cloud Computing, yaitu sebagai berikut:
