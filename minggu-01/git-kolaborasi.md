@@ -103,6 +103,24 @@ Sebelum melakukan perubahan, pastikan:
 
 ![10](gambar/git-collab-fork10.jpg)
 
+## Contoh edit file di Upstream
+
+1. Sebelum di-edit
+
+![11](gambar/git-collab-fork11.jpg)
+
+2. Proses Edit
+
+![12](gambar/git-collab-fork12.jpg)
+
+3. Proses upload dari contributor ke upstream
+
+![13](gambar/git-collab-fork13.jpg)
+
+4. Sesudah di-edit
+
+![14](gambar/git-collab-fork14.jpg)
+
 ## Konflik
 
 Ada kemungkinan, jika satu orang mengirimkan PR untuk satu atau lebih file dan sementara itu ada lainnya juga yang mengirimkan PR pada satu atau lebih file yang sama, maka akan terjadi konflik karena ada satu atau lebih file yang **sama** yang di-edit dan akan di-*merge*. Jika sampai terjadi kasus seperti ini, maka *upatream author* **harus** menolak semua PR dan kemudian masing-masing kontributor diharapkan menyelesaikan secara manual (offline) kemudian memutuskan siapa yang akan mengirimkan PR.
