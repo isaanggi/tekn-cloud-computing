@@ -45,6 +45,7 @@ Menurut NIST, ada 5 Karakteristik Cloud Computing agar sebuah sistem dapat diseb
 <br>
 <br>
 ## Model Layanan
+<br>
 Secara umum terdapat tiga bentuk layanan Cloud Computing, yaitu sebagai berikut:
 <br><br>
 <b>a. Software as a Service (SaaS)</b>
