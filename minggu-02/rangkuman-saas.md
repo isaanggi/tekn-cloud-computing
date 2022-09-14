@@ -2,15 +2,15 @@
 ## Perbedaan antara IaaS, Saas dan Paas
 
 **IaaS (Infrastructure as a Service)** 
-Adalah model *cloud service*  dimana sumber daya komputasinya disediakan secara virtual sehingga penggunanya memiliki kendali penuh terhadap infrastruktur yang digunakan, mulai dari server, jaringan, sistem operasi, storage dan ruang data center. Pengguna juga dapat membuat `"pusat data virtual"` di cloud dan memiliki akses ke seluruh data tanpa harus memiliki hardware atau perangkat tersendiri. 
+<br>Adalah model *cloud service*  dimana sumber daya komputasinya disediakan secara virtual sehingga penggunanya memiliki kendali penuh terhadap infrastruktur yang digunakan, mulai dari server, jaringan, sistem operasi, storage dan ruang data center. Pengguna juga dapat membuat `"pusat data virtual"` di cloud dan memiliki akses ke seluruh data tanpa harus memiliki hardware atau perangkat tersendiri. 
 Beberapa contoh dari SaaS yaitu Digital Ocean, Amazon Web Services (AWS), Linode, Rackspace, Google Compute Engine (GCE), Microsoft Azure, Cisco Metapod, dll.
 
 **SaaS (Software as a Service)**
-Adalah suatu lisensi perangkat lunak dan *delivery* model berbasis *cloud*, sehingga memungkinkan penggunanya untuk tetap mengakses suatu software dimanapun, kapanpun dan dengan device apapun asalkan terkoneksi dengan internet. Dalam SaaS, pengguna tidak perlu lagi melakukan install, update, atau menangani masalah pada software yang digunakan karena semua hal tersebut telah dikelola oleh vendor karena pengguna hanya perlu menggunakan service yang disediakan. 
+<br>Adalah suatu lisensi perangkat lunak dan *delivery* model berbasis *cloud*, sehingga memungkinkan penggunanya untuk tetap mengakses suatu software dimanapun, kapanpun dan dengan device apapun asalkan terkoneksi dengan internet. Dalam SaaS, pengguna tidak perlu lagi melakukan install, update, atau menangani masalah pada software yang digunakan karena semua hal tersebut telah dikelola oleh vendor karena pengguna hanya perlu menggunakan service yang disediakan. 
 Beberapa contoh dari SaaS yaitu Google Apps, Salesforce, Hubspot, Zendesk, Slack, Ahrefs, Semrush, Majestic SEO, Drop Box, Mailchimp, dll.
 
 **Platform as a Service (PaaS)**
-Adalah model *cloud service* berupa framework yang dapat digunakan oleh pengguna (developer) untuk membangun/membuat sebuah perangkat lunak (aplikasi). Sistem operasi, server dan segala kebutuhan yang diperlukan oleh pengguna telah disediakan oleh vendor, sehingga memungkinkan bagi pengguna untuk lebih fokus dalam pengembangan perangkat lunak.
+<br>Adalah model *cloud service* berupa framework yang dapat digunakan oleh pengguna (developer) untuk membangun/membuat sebuah perangkat lunak (aplikasi). Sistem operasi, server dan segala kebutuhan yang diperlukan oleh pengguna telah disediakan oleh vendor, sehingga memungkinkan bagi pengguna untuk lebih fokus dalam pengembangan perangkat lunak.
 Beberapa contoh PaaS yaitu Google App Engine, Windows Azure, AWS Elastic Beanstalk, dll.
 
 ## SaaS (Software as a Service)
@@ -21,13 +21,11 @@ Dengan model SaaS, sebuah aplikasi dengan satu konfigurasi dapat digunakan untuk
 
 Terdapat 2 jenis utama dari SaaS, yaitu.
 
-**SaaS Vertical**
-Adalah sebuah perangkat lunak yang digunakan untuk kebutuhan sebuah industri tertentu, sehingga cenderung lebih terfokus pada satu bidang industri saja. Misalnya perangkat lunak untuk kebutuhan industri kesehatan, pertanian, real estate, keuangan, dll.
+**SaaS Vertical** adalah sebuah perangkat lunak yang digunakan untuk kebutuhan sebuah industri tertentu, sehingga cenderung lebih terfokus pada satu bidang industri saja. Misalnya perangkat lunak untuk kebutuhan industri kesehatan, pertanian, real estate, keuangan, dll.
 
-**SaaS Horizontal**
-Adalah sebuah perangkat lunak yang berfokus pada sebuah produk, sehingga cakupan bisnis dan industrinya lebih luas dibanding SaaS Vertical. Misalnya perangkat lunak untuk kebutuhan pemasaran, penjualan, alat pengembang, SDM, dll.
+**SaaS Horizontal** adalah sebuah perangkat lunak yang berfokus pada sebuah produk, sehingga cakupan bisnis dan industrinya lebih luas dibanding SaaS Vertical. Misalnya perangkat lunak untuk kebutuhan pemasaran, penjualan, alat pengembang, SDM, dll.
 
-Manfaat SaaS yaitu pengguna dapat secara langsung menggunakan layanan tanpa harus atau menginstall atau membuat sendiri (in-house development). Pengguna tidak perlu khawatir tentang ketersediaan dan reliabilitas aplikasi, karena telah dijamin oleh penyedia layanan sehingga pengguna hanya perlu fokus pada data yang dimiliki saja.
+**Manfaat SaaS** yaitu pengguna dapat secara langsung menggunakan layanan tanpa harus atau menginstall atau membuat sendiri (in-house development). Pengguna tidak perlu khawatir tentang ketersediaan dan reliabilitas aplikasi, karena telah dijamin oleh penyedia layanan sehingga pengguna hanya perlu fokus pada data yang dimiliki saja.
 
 ## Kelebihan & Kelemahan SaaS (Software as a Service)
 
