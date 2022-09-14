@@ -23,7 +23,7 @@ Terdapat 2 jenis utama dari SaaS, yaitu.
 
 **SaaS Horizontal** adalah sebuah perangkat lunak yang berfokus pada sebuah produk, sehingga cakupan bisnis dan industrinya lebih luas dibanding SaaS Vertical. Misalnya perangkat lunak untuk kebutuhan pemasaran, penjualan, alat pengembang, SDM, dll.
 
-**Manfaat SaaS** yaitu pengguna dapat secara langsung menggunakan layanan tanpa harus atau menginstall atau membuat sendiri (in-house development). Pengguna tidak perlu khawatir tentang ketersediaan dan reliabilitas aplikasi, karena telah dijamin oleh penyedia layanan sehingga pengguna hanya perlu fokus pada data yang dimiliki saja.
+Manfaat SaaS yaitu pengguna dapat secara langsung menggunakan layanan tanpa harus atau menginstall atau membuat sendiri (in-house development). Pengguna tidak perlu khawatir tentang ketersediaan dan reliabilitas aplikasi, karena telah dijamin oleh penyedia layanan sehingga pengguna hanya perlu fokus pada data yang dimiliki saja.
 
 ## Kelebihan & Kekurangan SaaS (Software as a Service)
 
