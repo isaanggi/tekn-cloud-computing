@@ -1,8 +1,8 @@
 # Rangkuman Software as a Service
-## Perbedaan antara IaaS, Saas dan Paas
+## Perbedaan antara IaaS, SaaS dan PaaS
 
 **IaaS (Infrastructure as a Service)** 
-<br>Adalah model *cloud service*  dimana sumber daya komputasinya disediakan secara virtual sehingga penggunanya memiliki kendali penuh terhadap infrastruktur yang digunakan, mulai dari server, jaringan, sistem operasi, storage dan ruang data center. Pengguna juga dapat membuat `"pusat data virtual"` di cloud dan memiliki akses ke seluruh data tanpa harus memiliki hardware atau perangkat tersendiri. 
+<br>Adalah model *cloud service*  dimana sumber daya komputasinya disediakan secara virtual sehingga penggunanya memiliki kendali penuh terhadap infrastruktur yang digunakan, mulai dari server, jaringan, sistem operasi, storage dan ruang data center. Pengguna juga dapat membuat `pusat data virtual` di cloud dan memiliki akses ke seluruh data tanpa harus memiliki hardware atau perangkat sendiri. 
 Beberapa contoh dari SaaS yaitu Digital Ocean, Amazon Web Services (AWS), Linode, Rackspace, Google Compute Engine (GCE), Microsoft Azure, Cisco Metapod, dll.
 
 **SaaS (Software as a Service)**
@@ -15,8 +15,6 @@ Beberapa contoh PaaS yaitu Google App Engine, Windows Azure, AWS Elastic Beansta
 
 ## SaaS (Software as a Service)
 
-![1](Gambar/arsitekturSaaS.jpg)
-
 Dengan model SaaS, sebuah aplikasi dengan satu konfigurasi dapat digunakan untuk semua pelanggan. Hal itu dikarenakan aplikasi tersebut diinstal pada beberapa mesin untuk mendukung skalabilitas atau disebut dengan penskalaan horizontal.
 
 Terdapat 2 jenis utama dari SaaS, yaitu.
@@ -27,7 +25,7 @@ Terdapat 2 jenis utama dari SaaS, yaitu.
 
 **Manfaat SaaS** yaitu pengguna dapat secara langsung menggunakan layanan tanpa harus atau menginstall atau membuat sendiri (in-house development). Pengguna tidak perlu khawatir tentang ketersediaan dan reliabilitas aplikasi, karena telah dijamin oleh penyedia layanan sehingga pengguna hanya perlu fokus pada data yang dimiliki saja.
 
-## Kelebihan & Kelemahan SaaS (Software as a Service)
+## Kelebihan & Kekurangan SaaS (Software as a Service)
 
 Kelebihan:
 - Keamanan
@@ -41,15 +39,15 @@ Kekurangan:
 - Kurang dalam hal akses kontrol
 - Ekosistem terbatas
 
-## Cara membangun aplikasi SaaS berbasis cloud
+## Cara Membangun Aplikasi SaaS berbasis Cloud
 
-1. Pilih bahasa pemograman yang tepat (Contoh: Python karena lebih fleksibel dalam banyak kasus)
+1. Pilih bahasa pemograman yang tepat (Contohnya Python karena lebih fleksibel dalam banyak kasus)
 
 2. Pilih database yang tepat (Database Document Oriented seperti MongoDB)
 
-3. Sistem antrian (Sebuah protokol komunikasi asinkron yang memungkinkan pengirim dan penerima berinteraksi disaat yang sama atau dikenal dengan MSMQ seperti RabbitMq)
+3. Pilih sistem antrian yang tepat (Yaitu sebuah protokol komunikasi asinkron yang memungkinkan pengirim dan penerima berinteraksi disaat yang sama atau dikenal dengan MSMQ, seperti RabbitMq)
 
-Dengan Python, MongoDB dan RabbitMQ sudah mencukupi dalam dasar pembangunan SaaS. Mungkin akan ada penambahan lain seperti kebutuhan software pemantauan dan analitik yang tepat.
+Dengan Python, MongoDB dan RabbitMQ kiranya telah mencukupi dalam dasar pembangunan SaaS. Mungkin akan ada penambahan lain seperti kebutuhan software pemantauan dan analitik yang tepat.
 
 ### Referensi:
 1. [What is the difference between IaaS, SaaS, and PaaS?](https://www.quora.com/What-is-the-difference-between-IaaS-SaaS-and-Paas). 
