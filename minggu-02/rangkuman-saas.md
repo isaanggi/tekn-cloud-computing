@@ -17,6 +17,8 @@ Beberapa contoh PaaS yaitu Google App Engine, Windows Azure, AWS Elastic Beansta
 
 Dengan model SaaS, sebuah aplikasi dengan satu konfigurasi dapat digunakan untuk semua pelanggan. Hal itu dikarenakan aplikasi tersebut diinstal pada beberapa mesin untuk mendukung skalabilitas atau disebut dengan penskalaan horizontal.
 
+![1](SaaSArchitecture.jpeg)
+
 Terdapat 2 jenis utama dari SaaS, yaitu.
 
 **SaaS Vertical** adalah sebuah perangkat lunak yang digunakan untuk kebutuhan sebuah industri tertentu, sehingga cenderung lebih terfokus pada satu bidang industri saja. Misalnya perangkat lunak untuk kebutuhan industri kesehatan, pertanian, real estate, keuangan, dll.
