@@ -1,5 +1,6 @@
 # Minggu-04
-## Infrastuctur as a Service dan SDN
+## Infrastructure as a Service dan SDN
 
-[Latihan: OpenStack Deployment on Ubuntu with DevStack]{latihan.md}
-[Tugas: Mininet Walkthrough and OpenFlow Tutorial]{tugas.md}
+[Latihan: OpenStack Deployment on Ubuntu with DevStack](latihan.md)<br>
+[Tugas: Mininet Walkthrough](tugas-mininet.md)<br>
+[Tugas: OpenFlow Tutorial](tugas-openflow.md)<br>
