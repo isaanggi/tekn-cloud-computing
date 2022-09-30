@@ -22,7 +22,7 @@ Switch to stack user, test the internet connection and check version of Python.
 osboxes@isaanggi:~$ sudo su - stack
 stack@isaanggi:~$ 
 ```
-[1]{gambar/devstack-installation(1).jpg}
+![1]{gambar/devstack-installation(1).jpg}
 ### Step 3: Download DevStack
 Clone Destack deployment code from Github.
 ```bash
@@ -33,7 +33,7 @@ Create a local.conf file with 4 passwords and Host IP address.
 stack@isaanggi:~$ cd devstack
 stack@isaanggi:~/devstack$ nano local.conf
 ```
-[2]{gambar/devstack-installation(2).jpg}
+![2]{gambar/devstack-installation(2).jpg}
 ### Step 4: Start Openstack Deployment on Ubuntu 18.04 with DevStack
 Now that you’ve configured the minimum required config to get started with DevStack, start the installation of Openstack.
 ```bash
@@ -50,4 +50,4 @@ Keystone is serving at http://10.0.2.15/identity/
 The default users are: admin and demo
 The password: StrongAdminSecret
 ```
-[3]{gambar/devstack-installation(3).jpg}
+![3]{gambar/devstack-installation(3).jpg}
