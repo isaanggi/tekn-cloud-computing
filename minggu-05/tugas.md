@@ -13,7 +13,7 @@ Pilih konfigurasi sesuai kebutuhan kemudian klik Add to Cart,<br>
 Produk yang sudah di-Add akan masuk ke Cart,<br>
 ![4](gambar/demo/demo-ecommerce_4.jpg)<br><br>
 ### Proses Check Out
-Centang produk kemudian klik Check Out,<br>
+Klik View Cart, Centang produk kemudian klik Check Out,<br>
 ![5](gambar/demo/demo-ecommerce_5.jpg)<br><br>
 Klik New Address untuk menambah alamat baru tujuan pengiriman,<br>
 ![6](gambar/demo/demo-ecommerce_6.jpg)<br><br>
