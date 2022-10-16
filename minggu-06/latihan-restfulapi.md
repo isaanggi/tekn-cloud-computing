@@ -22,4 +22,9 @@ Kode program RESTful API untuk membaca data dari MySQL adalah sebagai [berikut](
 <div align="center"><img src="gambar/latihan/restful-api-mysql/screenshot5-akses-api-postman.jpg" width="500px"></div>
 
 ## MongoDB
-Akses kode program melalui link [berikut](kode/latihan/restful-api-mongodb)<br>
+1. Create database baru pada MongoDB.
+<div align="center"><img src="gambar/latihan/restful-api-mongodb/Screenshot_1.jpg" width="500px"></div><br>
+2. Create direktori baru, kemudian instal module dan driver yang diperlukan.<br>
+<div align="center"><img src="gambar/latihan/restful-api-mongodb/Screenshot_2.jpg" width="500px"></div><br>
+<div align="center"><img src="gambar/latihan/restful-api-mongodb/Screenshot_3.jpg" width="500px"></div><br>
+3. Akses kode program melalui link [berikut](kode/latihan/restful-api-mongodb)<br>
