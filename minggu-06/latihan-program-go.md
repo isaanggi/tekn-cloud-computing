@@ -1,13 +1,13 @@
-# Program Go untuk koneksi dan membaca data dari MySQL dan MongoDB
+# Program Go: koneksi dan membaca data dari MySQL dan MongoDB
 
 1. Create direktori baru, kemudian instal module dan driver yang diperlukan.
 
-<div align="center"><img src="gambar/latihan/program-go(1).jpg" width="500px"></div><br>
+<div align="center"><img src="gambar/latihan/program-go(1).jpg" width="500px"></div>
 <div align="center"><img src="gambar/latihan/program-go(2).jpg" width="500px"></div><br>
 
 2. Create database MySQL dan MongoDB, lalu masukan data kedalamnya.
 
-<div align="center"><img src="gambar/latihan/program-go(3).jpg" width="500px"></div><br>
+<div align="center"><img src="gambar/latihan/program-go(3).jpg" width="500px"></div>
 <div align="center"><img src="gambar/latihan/program-go(4).jpg" width="500px"></div><br>
 
 3. Buat file program dengan ekstensi .go untuk membaca data pada kedua database yang telah dibuat. <br><br>
