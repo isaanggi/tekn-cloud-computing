@@ -15,3 +15,11 @@
 4. Akses Docker container melalui web browser.<br>
 
 <div align="center"><img src="gambar/tugas/dockerhub-4.jpg"></div><br>
+
+5. Login, tag, dan push ke [Docker Hub](https://hub.docker.com/).
+
+<div align="center"><img src="gambar/tugas/dockerhub-5.jpg"></div><br>
+
+<div align="center"><img src="gambar/tugas/dockerhub-6.jpg"></div><br>
+
+<div align="center"><img src="gambar/tugas/dockerhub-7.jpg"></div><br>
