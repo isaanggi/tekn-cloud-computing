@@ -1,1 +1,1 @@
-## Get Started - Docker
+## Getting Started - Docker Compose
