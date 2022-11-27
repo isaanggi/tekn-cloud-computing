@@ -4,10 +4,10 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Docker Networ
 
 ### Task
 
-- [Section #1 - Networking Basics](https://github.com/isaanggi/tekn-cloud-computing/edit/main/minggu-10/docker-networking.md#section-1---networking-basics)
-- [Section #2 - Bridge Networking](https://github.com/isaanggi/tekn-cloud-computing/edit/main/minggu-10/docker-networking.md#section-2---bridge-networking)
-- [Section #3 - Overlay Networking](https://github.com/isaanggi/tekn-cloud-computing/edit/main/minggu-10/docker-networking.md#section-3---overlay-networking)
-- [Cleaning Up](https://github.com/isaanggi/tekn-cloud-computing/edit/main/minggu-10/docker-networking.md#cleaning-up)
+- [Section #1 - Networking Basics](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-10/docker-networking.md#section-1---networking-basics)
+- [Section #2 - Bridge Networking](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-10/docker-networking.md#section-2---bridge-networking)
+- [Section #3 - Overlay Networking](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-10/docker-networking.md#section-3---overlay-networking)
+- [Cleaning Up](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-10/docker-networking.md#cleaning-up)
 
 ## Section #1 - Networking Basics
 
