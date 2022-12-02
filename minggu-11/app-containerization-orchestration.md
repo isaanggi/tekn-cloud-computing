@@ -4,15 +4,15 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 
 ### Steps
 
-- [Stage Setup]
-- [Step 0: Basic Link Extractor Script]
-- [Step 1: Containerized Link Extractor Script]
-- [Step 2: Link Extractor Module with Full URI and Anchor Text]
-- [Step 3: Link Extractor API Service]
-- [Step 4: Link Extractor API and Web Front End Services]
-- [Step 5: Redis Service for Caching]
-- [Step 6: Swap Python API Service with Ruby]
-- [Conclusions]
+- [Stage Setup](minggu-11/app-containerization-orchestration.md#stage-setup)
+- [Step 0: Basic Link Extractor Script](minggu-11/app-containerization-orchestration.md#step-0-basic-link-extractor-script)
+- [Step 1: Containerized Link Extractor Script](minggu-11/app-containerization-orchestration.md#step-1-containerized-link-extractor-script)
+- [Step 2: Link Extractor Module with Full URI and Anchor Text](minggu-11/app-containerization-orchestration.md#step-2-link-extractor-module-with-full-uri-and-anchor-text)
+- [Step 3: Link Extractor API Service](minggu-11/app-containerization-orchestration.md#step-3-link-extractor-api-service)
+- [Step 4: Link Extractor API and Web Front End Services](minggu-11/app-containerization-orchestration.md#step-4-link-extractor-api-and-web-front-end-services)
+- [Step 5: Redis Service for Caching](minggu-11/app-containerization-orchestration.md#step-5-redis-service-for-caching)
+- [Step 6: Swap Python API Service with Ruby](minggu-11/app-containerization-orchestration.md#step-6-swap-python-api-service-with-ruby)
+- [Conclusions](minggu-11/app-containerization-orchestration.md#conclusions)
 
 ## Stage Setup
 ## Step 0: Basic Link Extractor Script
@@ -24,7 +24,8 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 ## Step 6: Swap Python API Service with Ruby
 ## Conclusions
 
-=====================================
+
+# Under Construction ^_^
 <div><img src="gambar/ss1.png"></div>
 <div><img src="gambar/ss2.png"></div>
 <div><img src="gambar/ss3.png"></div>
