@@ -110,18 +110,51 @@ In this step we have successfully ran an API service listening on port ```5000``
 
 ## Step 4: Link Extractor API and Web Front End Services
 
+Checkout the ```step4``` branch and list files in it.
+
 <div><img src="gambar/ss21.png"></div>
+
+In this step we are planning to run two separate containers, one for the API and the other for the web interface. The latter needs a way to talk to the API server. For the two containers to be able to talk to each other, we can either map their ports on the host machine and use that for request routing or we can place the containers in a single private network and access directly. Docker has excellent support for networking and provides helpful commands for dealing with networks. Additionally, in a Docker network containers identify themselves using their names as hostnames to avoid hunting for their IP addresses in the private network. However, we are not going to do any of this manually, instead we will be using Docker Compose to automate many of these tasks.
+
+So let’s look at the ```docker-compose.yml``` file we have:
+
 <div><img src="gambar/ss22.png"></div>
+
+Now, let’s have a look at the user-facing ```www/index.php``` file:
+
 <div><img src="gambar/ss23.png"></div>
+
+Let’s bring these services up in detached mode using ```docker-compose``` utility. Checking for the list of running containers confirms that the two services are indeed running:
+
 <div><img src="gambar/ss24.png"></div>
 <div><img src="gambar/ss25.png"></div>
+
+We should now be able to talk to the API service as before:
+
 <div><img src="gambar/ss26.png"></div>
+
+To access the web interface [click to open the Link Extractor](https://training.play-with-docker.com/). Then fill the form with ```https://training.play-with-docker.com/``` (or any HTML page URL of your choice) and submit to extract links from it.
+
 <div><img src="gambar/ss27.png"></div>
+
+Now, let’s modify the ```www/index.php``` file to replace all occurrences of ```Link Extractor``` with ```Super Link Extractor``` :
+
 <div><img src="gambar/ss28.png"></div>
+
+Reloading the web interface of the application (or [clicking here](https://training.play-with-docker.com/)) should now reflect this change in the title, header, and footer. 
+
 <div><img src="gambar/ss29.png"></div>
+
+Let’s revert these changes now to clean the Git tracking:
+
 <div><img src="gambar/ss30.png"></div>
 <div><img src="gambar/ss31.png"></div>
+
+Before we move on to the next step we need to shut these services down, but Docker Compose can help us take care of it very easily:
+
 <div><img src="gambar/ss32.png"></div>
+
+In the next step we will add one more service to our stack and will build a self-contained custom image for our web interface service.
 
 ## Step 5: Redis Service for Caching
 
