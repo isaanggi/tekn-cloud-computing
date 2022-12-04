@@ -158,20 +158,51 @@ In the next step we will add one more service to our stack and will build a self
 
 ## Step 5: Redis Service for Caching
 
+Checkout the ```step5``` branch and list files in it.
+
 <div><img src="gambar/ss33.png"></div>
+
+Let’s first inspect the newly added ```Dockerfile``` under the ```./www``` folder:
+
 <div><img src="gambar/ss34.png"></div>
+
+Next, we will look at the API server’s ```api/main.py``` file where we are utilizing the Redis cache:
+
 <div><img src="gambar/ss35.png"></div>
+
+Now, let’s look into the updated ```docker-compose.yml``` file:
+
 <div><img src="gambar/ss36.png"></div>
+
+Let’s boot these services up:
+
 <div><img src="gambar/ss37.png"></div>
+
+Now, that all three services are up, access the web interface by [clicking the Link Extractor](https://training.play-with-docker.com/). There should be no visual difference from the previous step. However, if you extract links from a page with a lot of links, the first time it should take longer, but the successive attempts to the same page should return the response fairly quickly. To check whether or not the Redis service is being utilized, we can use ```docker-compose exec``` followed by the ```redis``` service name and the Redis CLI’s [monitor](https://redis.io/commands/monitor) command:
+
 <div><img src="gambar/ss38.png"></div>
+
+Now, try to extract links from some web pages using the web interface and see the difference in Redis log entries for pages that are scraped the first time and those that are repeated. 
+
 <div><img src="gambar/ss39.png"></div>
 <div><img src="gambar/ss40.png"></div>
 <div><img src="gambar/ss41.png"></div>
+
+Before continuing further with the tutorial, stop the interactive ```monitor``` stream as a result of the above ```redis-cli``` command by pressing ```Ctrl + C``` keys while the interactive terminal is in focus. Now that we are not mounting the ```/www``` folder inside the container, local changes should not reflect in the running service:
+
 <div><img src="gambar/ss42.png"></div>
+
+Verify that the changes made locally do not reflect in the running service by reloading the web interface and then revert changes:
+
 <div><img src="gambar/ss43.png"></div>
 <div><img src="gambar/ss44.png"></div>
 <div><img src="gambar/ss45.png"></div>
+
+Now, shut these services down and get ready for the next step:
+
 <div><img src="gambar/ss46.png"></div>
+
+We have successfully orchestrated three microservices to compose our Link Extractor application. We now have an application stack that represents the architecture illustrated in the figure shown in the introduction of this tutorial. In the next step we will explore how easy it is to swap components from an application with the microservice architecture.
 
 ## Step 6: Swap Python API Service with Ruby
 
