@@ -15,30 +15,56 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 - [Conclusions](app-containerization-orchestration.md#conclusions)
 
 ## Stage Setup
-## Step 0: Basic Link Extractor Script
-## Step 1: Containerized Link Extractor Script
-## Step 2: Link Extractor Module with Full URI and Anchor Text
-## Step 3: Link Extractor API Service
-## Step 4: Link Extractor API and Web Front End Services
-## Step 5: Redis Service for Caching
-## Step 6: Swap Python API Service with Ruby
-## Conclusions
 
+Let’s get started by first cloning the demo code repository, changing the working directory, and checking the ```demo``` branch out.
 
-# Under Construction ^_^
 <div><img src="gambar/ss1.png"></div>
 <div><img src="gambar/ss2.png"></div>
+
+## Step 0: Basic Link Extractor Script
+
+Checkout the ```step0``` branch and list files in it. The ```linkextractor.py``` file is the interesting one here, so let’s look at its contents:
+
 <div><img src="gambar/ss3.png"></div>
+
+However, this seemingly simple script might not be the easiest one to run on a machine that does not meet its requirements. The ```README.md``` file suggests how to run it, so let’s give it a try. When we tried to execute it as a script, we got the ```Permission denied``` error. Let’s check the current permissions on this file. This current permission ```-rw-r--r--``` indicates that the script is not set to be executable. We can either change it by running ```chmod a+x linkextractor.py``` or run it as a Python program instead of a self-executing script as illustrated below:
+
 <div><img src="gambar/ss4.png"></div>
+
+Here we got the first ```ImportError``` message because we are missing the third-party package needed by the script. We can install that Python package (and potentially other missing packages) using one of the many techniques to make it work, but it is too much work for such a simple script, which might not be obvious for those who are not familiar with Python’s ecosystem.
+
+This is where application containerization tools like Docker come in handy. In the next step we will try to containerize this script and make it easier to execute.
+
+## Step 1: Containerized Link Extractor Script
+
+Checkout the ```step1``` branch and list files in it. We have added one new file (i.e., ```Dockerfile```) in this step. Let’s look into its contents:
+
 <div><img src="gambar/ss5.png"></div>
+
+Using this ```Dockerfile``` we can prepare a Docker image for this script. So far, we have just described how we want our Docker image to be like, but didn’t really build one. So let’s do just that:
+
 <div><img src="gambar/ss6.png"></div>
+
+We have created a Docker image named ```linkextractor:step1``` based on the ```Dockerfile``` illustrated above. If the build was successful, we should be able to see it in the list of image:
+
 <div><img src="gambar/ss7.png"></div>
+
+This image should have all the necessary ingredients packaged in it to run the script anywhere on a machine that supports Docker. Now, let’s run a one-off container with this image and extract links from some live web pages. This outputs a single link that is present in the simple ```example.com``` web page. Let’s try it on a web page with more links in it:
+
 <div><img src="gambar/ss8.png"></div>
+
+In the next step we will make these changes and some other improvements to the script.
+
+## Step 2: Link Extractor Module with Full URI and Anchor Text
+
 <div><img src="gambar/ss9.png"></div>
 <div><img src="gambar/ss10.png"></div>
 <div><img src="gambar/ss11.png"></div>
 <div><img src="gambar/ss12.png"></div>
 <div><img src="gambar/ss13.png"></div>
+
+## Step 3: Link Extractor API Service
+
 <div><img src="gambar/ss14.png"></div>
 <div><img src="gambar/ss15.png"></div>
 <div><img src="gambar/ss16.png"></div>
@@ -46,6 +72,9 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 <div><img src="gambar/ss18.png"></div>
 <div><img src="gambar/ss19.png"></div>
 <div><img src="gambar/ss20.png"></div>
+
+## Step 4: Link Extractor API and Web Front End Services
+
 <div><img src="gambar/ss21.png"></div>
 <div><img src="gambar/ss22.png"></div>
 <div><img src="gambar/ss23.png"></div>
@@ -58,6 +87,10 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 <div><img src="gambar/ss30.png"></div>
 <div><img src="gambar/ss31.png"></div>
 <div><img src="gambar/ss32.png"></div>
+
+## Step 5: Redis Service for Caching
+
+<div><img src="gambar/ss33.png"></div>
 <div><img src="gambar/ss34.png"></div>
 <div><img src="gambar/ss35.png"></div>
 <div><img src="gambar/ss36.png"></div>
@@ -71,6 +104,9 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 <div><img src="gambar/ss44.png"></div>
 <div><img src="gambar/ss45.png"></div>
 <div><img src="gambar/ss46.png"></div>
+
+## Step 6: Swap Python API Service with Ruby
+
 <div><img src="gambar/ss47.png"></div>
 <div><img src="gambar/ss48.png"></div>
 <div><img src="gambar/ss49.png"></div>
@@ -79,3 +115,7 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 <div><img src="gambar/ss52.png"></div>
 <div><img src="gambar/ss53.png"></div>
 <div><img src="gambar/ss54.png"></div>
+
+## Conclusions
+
+We started this tutorial with a simple Python script that scrapes links from a given web page URL. We demonstrated various difficulties in running the script. We then illustrated how easy to run and portable the script becomes onces it is containerized. In the later steps we gradually evolved the script into a multi-service application stack. In the process we explored various concepts of microservice architecture and how Docker tools can be helpful in orchestrating a multi-service stack. Finally, we demonstrated the ease of microservice component swapping and data persistence.
