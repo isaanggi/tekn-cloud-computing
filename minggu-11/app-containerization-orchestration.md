@@ -57,11 +57,27 @@ In the next step we will make these changes and some other improvements to the s
 
 ## Step 2: Link Extractor Module with Full URI and Anchor Text
 
+Checkout the step2 branch and list files in it.
+
 <div><img src="gambar/ss9.png"></div>
+
+In this step the ```linkextractor.py``` script is updated with the following functional changes. Let’s have a look at the updated script.
+
 <div><img src="gambar/ss10.png"></div>
+
+Let’s have a look at the updated script. We have used a new tag ```linkextractor:step2``` for this image so that we don’t overwrite the image from the ```step1``` to illustrate that they can co-exist and containers can be run using either of these images.
+
 <div><img src="gambar/ss11.png"></div>
+
+Running a one-off container using the ```linkextractor:step2``` image should now yield an improved output:
+
 <div><img src="gambar/ss12.png"></div>
+
+Running a container using the previous image linkextractor:step1 should still result in the old output:
+
 <div><img src="gambar/ss13.png"></div>
+
+So far, we have learned how to containerize a script with its necessary dependencies to make it more portable. We have also learned how to make changes in the application and build different variants of Docker images that can co-exist. In the next step we will build a web service that will utilize this script and will make the service run inside a Docker container.
 
 ## Step 3: Link Extractor API Service
 
