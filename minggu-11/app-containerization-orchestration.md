@@ -206,14 +206,45 @@ We have successfully orchestrated three microservices to compose our Link Extrac
 
 ## Step 6: Swap Python API Service with Ruby
 
+Checkout the step6 branch and list files in it.
+
 <div><img src="gambar/ss47.png"></div>
+
+Notice that the ./api folder does not contain any Python scripts, instead, it now has a Ruby file and a Gemfile to manage dependencies. Let’s have a quick walk through the changed files:
+
 <div><img src="gambar/ss48.png"></div>
+
+This Ruby file is almost equivalent to what we had in Python before, except, in addition to that it also logs the link extraction requests and corresponding cache events. In a microservice architecture application swapping components with an equivalent one is easy as long as the expectations of consumers of the component are maintained.
+
 <div><img src="gambar/ss49.png"></div>
+
+Above Dockerfile is written for the Ruby script and it is pretty much self-explanatory.
+
 <div><img src="gambar/ss50.png"></div>
+
+The ```docker-compose.yml``` file has a few minor changes in it. The ```api``` service image is now named ```linkextractor-api:step6-ruby```, the port mapping is changed from ```5000``` to ```4567``` (which is the default port for Sinatra server), and the `API_ENDPOINT` environment variable in the ```web``` service is updated accordingly so that the PHP code can talk to it.
+
+With these in place, let’s boot our service stack:
+
 <div><img src="gambar/ss51.png"></div>
+
+We should now be able to access the API (using the updated port number):
+
 <div><img src="gambar/ss52.png"></div>
+
+Now, open the web interface by [clicking the Link Extractor](https://training.play-with-docker.com/) and extract links of a few URLs. Also, try to repeat these attempts for some URLs.
+
 <div><img src="gambar/ss53.png"></div>
+
+We can shut the stack down now. Since we have persisted logs, they should still be available after the services are gone:
+
 <div><img src="gambar/ss54.png"></div>
+
+This illustrates that the caching is functional as the second attempt to the ```http://example.com/``` resulted in a cache ```HIT```.
+
+In this step we explored the possibility of swapping components of an application with microservice architecture with their equivalents without impacting rest of the parts of the stack. We have also explored data persistence using bind mount volumes that persists even after the containers writing to the volume are gone.
+
+So far, we have used ```docker-compose``` utility to orchestrate the application stack, which is good for development environment, but for production environment we use ```docker stack deploy``` command to run the application in a [Docker Swarm Cluster](https://training.play-with-docker.com/swarm-stack-intro).
 
 ## Conclusions
 
