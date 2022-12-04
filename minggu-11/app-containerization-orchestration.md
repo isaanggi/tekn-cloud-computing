@@ -81,13 +81,32 @@ So far, we have learned how to containerize a script with its necessary dependen
 
 ## Step 3: Link Extractor API Service
 
+Checkout the ```step3``` branch and list files in it. Let’s first look at the ```Dockerfile``` for changes:
+
 <div><img src="gambar/ss14.png"></div>
+
+The ```linkextractor.py``` module remains unchanged in this step, so let’s look into the newly added ```main.py``` file:
+
 <div><img src="gambar/ss15.png"></div>
+
+It’s time to build a new image with these changes in place:
+
 <div><img src="gambar/ss16.png"></div>
 <div><img src="gambar/ss17.png"></div>
+
+Then run the container in detached mode (```-d``` flag) so that the terminal is available for other commands while the container is still running. Note that we are mapping the port ```5000``` of the container with the ```5000``` of the host (using ```-p 5000:5000``` argument) to make it accessible from the host. We are also assigning a name (```--name=linkextractor```) to the container to make it easier to see logs and kill or remove the container.
+
 <div><img src="gambar/ss18.png"></div>
+
+We can now make an HTTP request in the form ```/api/<url>``` to talk to this server and fetch the response containing extracted links. Since the container is running in detached mode, so we can’t see what’s happening inside, but we can see logs using the name ```linkextractor``` we assigned to our container:
+
 <div><img src="gambar/ss19.png"></div>
+
+We can see the messages logged when the server came up, and an entry of the request log when we ran the curl command. Now we can kill and remove this container:
+
 <div><img src="gambar/ss20.png"></div>
+
+In this step we have successfully ran an API service listening on port ```5000```. This is great, but APIs and JSON responses are for machines, so in the next step we will run a web service with a human-friendly web interface in addition to this API service.
 
 ## Step 4: Link Extractor API and Web Front End Services
 
