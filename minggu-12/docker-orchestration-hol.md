@@ -21,54 +21,54 @@ But, with Orchestration tooling, you can typically off-load much of this manual 
 
 If you are typically only using ```docker run``` to deploy your applications, then you could likely really benefit from using Docker Compose, Docker Swarm mode, or both Docker Compose and Swarm.
 
-<div><img src="minggu-12/gambar/ss1.jpg"></div>
+<div><img src="gambar/ss1.jpg"></div>
 
 ## Section 2: Configure Swarm Mode
 
-<div><img src="minggu-12/gambar/ss2.jpg"></div>
-<div><img src="minggu-12/gambar/ss3.jpg"></div>
+<div><img src="gambar/ss2.jpg"></div>
+<div><img src="gambar/ss3.jpg"></div>
 
 ### Step 2.1 - Create a Manager node
 
-<div><img src="minggu-12/gambar/ss4.jpg"></div>
-<div><img src="minggu-12/gambar/ss5.jpg"></div>
+<div><img src="gambar/ss4.jpg"></div>
+<div><img src="gambar/ss5.jpg"></div>
 
 ### Step 2.2 - Join Worker nodes to the Swarm
 
-<div><img src="minggu-12/gambar/ss6.jpg"></div>
-<div><img src="minggu-12/gambar/ss7.jpg"></div>
+<div><img src="gambar/ss6.jpg"></div>
+<div><img src="gambar/ss7.jpg"></div>
 
 ## Section 3: Deploy applications across multiple hosts
 
 ### Step 3.1 - Deploy the application components as Docker services
 
-<div><img src="minggu-12/gambar/ss8.jpg"></div>
+<div><img src="gambar/ss8.jpg"></div>
 
 ## Section 4: Scale the application
 
-<div><img src="minggu-12/gambar/ss9.jpg"></div>
-<div><img src="minggu-12/gambar/ss10.jpg"></div>
-<div><img src="minggu-12/gambar/ss11.jpg"></div>
-<div><img src="minggu-12/gambar/ss12.jpg"></div>
-<div><img src="minggu-12/gambar/ss13.jpg"></div>
+<div><img src="gambar/ss9.jpg"></div>
+<div><img src="gambar/ss10.jpg"></div>
+<div><img src="gambar/ss11.jpg"></div>
+<div><img src="gambar/ss12.jpg"></div>
+<div><img src="gambar/ss13.jpg"></div>
 
 ## Section 5: Drain a node and reschedule the containers
 
-<div><img src="minggu-12/gambar/ss14.jpg"></div>
-<div><img src="minggu-12/gambar/ss15.jpg"></div>
-<div><img src="minggu-12/gambar/ss16.jpg"></div>
-<div><img src="minggu-12/gambar/ss17.jpg"></div>
-<div><img src="minggu-12/gambar/ss18.jpg"></div>
-<div><img src="minggu-12/gambar/ss19.jpg"></div>
-<div><img src="minggu-12/gambar/ss20.jpg"></div>
+<div><img src="gambar/ss14.jpg"></div>
+<div><img src="gambar/ss15.jpg"></div>
+<div><img src="gambar/ss16.jpg"></div>
+<div><img src="gambar/ss17.jpg"></div>
+<div><img src="gambar/ss18.jpg"></div>
+<div><img src="gambar/ss19.jpg"></div>
+<div><img src="gambar/ss20.jpg"></div>
 
 ## Cleaning Up
 
-<div><img src="minggu-12/gambar/ss21.jpg"></div>
-<div><img src="minggu-12/gambar/ss22.jpg"></div>
-<div><img src="minggu-12/gambar/ss23.jpg"></div>
-<div><img src="minggu-12/gambar/ss24.jpg"></div>
-<div><img src="minggu-12/gambar/ss25.jpg"></div>
-<div><img src="minggu-12/gambar/ss26.jpg"></div>
+<div><img src="gambar/ss21.jpg"></div>
+<div><img src="gambar/ss22.jpg"></div>
+<div><img src="gambar/ss23.jpg"></div>
+<div><img src="gambar/ss24.jpg"></div>
+<div><img src="gambar/ss25.jpg"></div>
+<div><img src="gambar/ss26.jpg"></div>
 
 Congratulations! You’ve completed this lab. You now know how to build a swarm, deploy applications as collections of services, and scale individual services up and down.
