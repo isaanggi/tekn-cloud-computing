@@ -1,4 +1,4 @@
-# Minggu-13
-## Learn Kubernetes Basics
+# Minggu-12
+## 	Docker Orchestration Hands-on Lab
 
-[Learn Kubernetes Basics](learn-kubernetes-basics.md)
+[Docker Orchestration Hands-on Lab](docker-orchestration-hol.md)
