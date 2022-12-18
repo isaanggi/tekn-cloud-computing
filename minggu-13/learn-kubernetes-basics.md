@@ -4,12 +4,12 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Learn Kuberne
 
 ### Tutorials
 
-- [Create a Cluster]
-- [Deploy an App]
-- [Explore Your App]
-- [Expose Your App Publicly]
-- [Scale Your App]
-- [Update Your App]
+- [Create a Cluster](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-13/learn-kubernetes-basics.md#create-a-cluster)
+- [Deploy an App](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-13/learn-kubernetes-basics.md#deploy-an-app)
+- [Explore Your App](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-13/learn-kubernetes-basics.md#explore-your-app)
+- [Expose Your App Publicly](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-13/learn-kubernetes-basics.md#expose-your-app-publicly)
+- [Scale Your App](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-13/learn-kubernetes-basics.md#scale-your-app)
+- [Update Your App](https://github.com/isaanggi/tekn-cloud-computing/blob/main/minggu-13/learn-kubernetes-basics.md#update-your-app)
 
 ## Create a Cluster
 
